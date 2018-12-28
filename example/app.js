@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
-import ImageZoom from '../../lib'
+import ImageZoom from '../'
 
 class App extends Component {
   render() {
@@ -104,7 +104,7 @@ class App extends Component {
             image={{
               src: 'gazelle.jpg',
               alt: 'Gazelle Stomping',
-              title: "Don't exceed original image dimensions...",
+              title: 'Don\'t exceed original image dimensions...',
               className: 'img',
               style: {
                 width: '250px'
